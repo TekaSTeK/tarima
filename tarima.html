@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<style>
+  .flex-row{
+    display :flex;
+    flex-direction:row;
+  }
+  .flex-column{
+   display :flex;
+   flex-direction:column; 
+ }
+ body{
+   width: 100%;
+   height: 100%;
+   align-items: flex-end;
+ }
+ .division{
+   width: 50px;
+   height: 600px;
+   border:solid;
+   border-color:black; 
+ }
+ .division2{
+  width: 900px;
+  height: 550px;
+  border:solid;
+  border-color:black; 
+}
+.linea{
+  width: 900px;
+ height: 10%;
+}
+.cuadro{
+ width: 900px;
+ height: 60%;
+ border-top: solid;
+ border-top-width: 1px;
+}
+
+.linea2{
+  width: 900px;
+ height: 30%;
+ border-top: solid;
+ border-top-width: 1px;
+}
+.division3{
+ width: 50px;
+ height: 600px;
+ border:solid;
+ border-color:black; 
+}
+</style>
+<body class="flex-row">
+  <div class="division">
+  </div>
+  <div class="division2" class="flex-row">
+    <div class="linea">
+    </div>
+    <div class="cuadro" class="flex-row">
+     <div class="minicuadro">
+     </div>
+     <div class="minicuadro2" class="flex-column">
+      <div class="vacio1">
+      </div>
+      <div class="vacio2">
+      </div> 
+    </div>
+    <div class="minicuadro3">
+    </div>
+  </div>
+  <div class="linea2">
+  </div>
+</div>
+<div class="division3">
+</div>   
+</body>
+</html>
